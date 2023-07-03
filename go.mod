@@ -10,7 +10,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.3.0
-	github.com/gorilla/mux v1.7.4-0.20191121170500-49c01487a141
+	github.com/gorilla/mux v1.8.0
 	github.com/kavu/go_reuseport v1.5.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/lyft/goruntime v0.3.0
