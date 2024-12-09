@@ -1,5 +1,5 @@
 # Running this docker image runs the integration tests.
-FROM golang@sha256:34ce21a9696a017249614876638ea37ceca13cdd88f582caad06f87a8aa45bf3
+FROM golang@sha256:574185e5c6b9d09873f455a7c205ea0514bfd99738c5dc7750196403a44ed4b7
 
 RUN apt-get update -y && apt-get install sudo stunnel4 redis memcached -y && rm -rf /var/lib/apt/lists/*
 
